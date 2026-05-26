@@ -30,60 +30,60 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SourceForm));
-            DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule6 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule1 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule2 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule3 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule4 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
+            DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule5 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.BtnOk = new DevExpress.XtraEditors.SimpleButton();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.NameField = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.ServerField = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.DatabaseField = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.UsernameField = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.EncryptField = new DevExpress.XtraEditors.CheckEdit();
-            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.TrustServerCertificateField = new DevExpress.XtraEditors.CheckEdit();
-            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
             this.PasswordField = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.validationProvider = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
             this.BtnCopyPass = new DevExpress.XtraEditors.SimpleButton();
+            this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.validationProvider = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NameField.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ServerField.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DatabaseField.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.UsernameField.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EncryptField.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrustServerCertificateField.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PasswordField.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.validationProvider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.validationProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.BtnOk);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupControl1.Location = new System.Drawing.Point(0, 174);
+            this.groupControl1.Location = new System.Drawing.Point(0, 247);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.ShowCaption = false;
             this.groupControl1.Size = new System.Drawing.Size(355, 32);
@@ -116,9 +116,100 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(355, 174);
+            this.layoutControl1.Size = new System.Drawing.Size(355, 247);
             this.layoutControl1.TabIndex = 5;
             this.layoutControl1.Text = "layoutControl1";
+            // 
+            // NameField
+            // 
+            this.NameField.Location = new System.Drawing.Point(100, 16);
+            this.NameField.Name = "NameField";
+            this.NameField.Size = new System.Drawing.Size(239, 28);
+            this.NameField.StyleController = this.layoutControl1;
+            this.NameField.TabIndex = 4;
+            conditionValidationRule1.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule1.ErrorText = "This value is not valid";
+            conditionValidationRule1.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
+            this.validationProvider.SetValidationRule(this.NameField, conditionValidationRule1);
+            // 
+            // ServerField
+            // 
+            this.ServerField.Location = new System.Drawing.Point(100, 50);
+            this.ServerField.Name = "ServerField";
+            this.ServerField.Size = new System.Drawing.Size(239, 28);
+            this.ServerField.StyleController = this.layoutControl1;
+            this.ServerField.TabIndex = 5;
+            conditionValidationRule2.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule2.ErrorText = "This value is not valid";
+            conditionValidationRule2.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
+            this.validationProvider.SetValidationRule(this.ServerField, conditionValidationRule2);
+            // 
+            // DatabaseField
+            // 
+            this.DatabaseField.Location = new System.Drawing.Point(100, 84);
+            this.DatabaseField.Name = "DatabaseField";
+            this.DatabaseField.Size = new System.Drawing.Size(239, 28);
+            this.DatabaseField.StyleController = this.layoutControl1;
+            this.DatabaseField.TabIndex = 6;
+            conditionValidationRule3.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule3.ErrorText = "This value is not valid";
+            conditionValidationRule3.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
+            this.validationProvider.SetValidationRule(this.DatabaseField, conditionValidationRule3);
+            // 
+            // UsernameField
+            // 
+            this.UsernameField.Location = new System.Drawing.Point(100, 118);
+            this.UsernameField.Name = "UsernameField";
+            this.UsernameField.Size = new System.Drawing.Size(239, 28);
+            this.UsernameField.StyleController = this.layoutControl1;
+            this.UsernameField.TabIndex = 7;
+            conditionValidationRule4.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule4.ErrorText = "This value is not valid";
+            conditionValidationRule4.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
+            this.validationProvider.SetValidationRule(this.UsernameField, conditionValidationRule4);
+            // 
+            // EncryptField
+            // 
+            this.EncryptField.EditValue = true;
+            this.EncryptField.Location = new System.Drawing.Point(16, 186);
+            this.EncryptField.Name = "EncryptField";
+            this.EncryptField.Properties.Caption = "Encrypt";
+            this.EncryptField.Size = new System.Drawing.Size(158, 22);
+            this.EncryptField.StyleController = this.layoutControl1;
+            this.EncryptField.TabIndex = 8;
+            // 
+            // TrustServerCertificateField
+            // 
+            this.TrustServerCertificateField.EditValue = true;
+            this.TrustServerCertificateField.Location = new System.Drawing.Point(180, 186);
+            this.TrustServerCertificateField.Name = "TrustServerCertificateField";
+            this.TrustServerCertificateField.Properties.Caption = "Trust server certificate";
+            this.TrustServerCertificateField.Size = new System.Drawing.Size(159, 22);
+            this.TrustServerCertificateField.StyleController = this.layoutControl1;
+            this.TrustServerCertificateField.TabIndex = 9;
+            // 
+            // PasswordField
+            // 
+            this.PasswordField.Location = new System.Drawing.Point(100, 152);
+            this.PasswordField.Name = "PasswordField";
+            this.PasswordField.Properties.UseSystemPasswordChar = true;
+            this.PasswordField.Size = new System.Drawing.Size(207, 28);
+            this.PasswordField.StyleController = this.layoutControl1;
+            this.PasswordField.TabIndex = 10;
+            conditionValidationRule5.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule5.ErrorText = "This value is not valid";
+            conditionValidationRule5.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
+            this.validationProvider.SetValidationRule(this.PasswordField, conditionValidationRule5);
+            // 
+            // BtnCopyPass
+            // 
+            this.BtnCopyPass.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnCopyPass.ImageOptions.Image")));
+            this.BtnCopyPass.Location = new System.Drawing.Point(313, 152);
+            this.BtnCopyPass.Name = "BtnCopyPass";
+            this.BtnCopyPass.Size = new System.Drawing.Size(26, 28);
+            this.BtnCopyPass.StyleController = this.layoutControl1;
+            this.BtnCopyPass.TabIndex = 11;
+            this.BtnCopyPass.Click += new System.EventHandler(this.BtnCopyPass_Click);
             // 
             // Root
             // 
@@ -134,20 +225,8 @@
             this.layoutControlItem5,
             this.layoutControlItem6});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(355, 174);
+            this.Root.Size = new System.Drawing.Size(355, 247);
             this.Root.TextVisible = false;
-            // 
-            // NameField
-            // 
-            this.NameField.Location = new System.Drawing.Point(92, 12);
-            this.NameField.Name = "NameField";
-            this.NameField.Size = new System.Drawing.Size(251, 20);
-            this.NameField.StyleController = this.layoutControl1;
-            this.NameField.TabIndex = 4;
-            conditionValidationRule6.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule6.ErrorText = "This value is not valid";
-            conditionValidationRule6.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
-            this.validationProvider.SetValidationRule(this.NameField, conditionValidationRule6);
             // 
             // layoutControlItem1
             // 
@@ -156,162 +235,83 @@
             this.layoutControlItem1.Control = this.NameField;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(335, 24);
+            this.layoutControlItem1.Size = new System.Drawing.Size(329, 34);
             this.layoutControlItem1.Text = "Name (*):";
             this.layoutControlItem1.TextSize = new System.Drawing.Size(68, 13);
-            // 
-            // ServerField
-            // 
-            this.ServerField.Location = new System.Drawing.Point(92, 36);
-            this.ServerField.Name = "ServerField";
-            this.ServerField.Size = new System.Drawing.Size(251, 20);
-            this.ServerField.StyleController = this.layoutControl1;
-            this.ServerField.TabIndex = 5;
-            conditionValidationRule1.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule1.ErrorText = "This value is not valid";
-            conditionValidationRule1.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
-            this.validationProvider.SetValidationRule(this.ServerField, conditionValidationRule1);
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem2.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.layoutControlItem2.Control = this.ServerField;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 34);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(335, 24);
+            this.layoutControlItem2.Size = new System.Drawing.Size(329, 34);
             this.layoutControlItem2.Text = "Server (*):";
             this.layoutControlItem2.TextSize = new System.Drawing.Size(68, 13);
-            // 
-            // DatabaseField
-            // 
-            this.DatabaseField.Location = new System.Drawing.Point(92, 60);
-            this.DatabaseField.Name = "DatabaseField";
-            this.DatabaseField.Size = new System.Drawing.Size(251, 20);
-            this.DatabaseField.StyleController = this.layoutControl1;
-            this.DatabaseField.TabIndex = 6;
-            conditionValidationRule2.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule2.ErrorText = "This value is not valid";
-            conditionValidationRule2.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
-            this.validationProvider.SetValidationRule(this.DatabaseField, conditionValidationRule2);
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem3.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.layoutControlItem3.Control = this.DatabaseField;
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 48);
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 68);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(335, 24);
+            this.layoutControlItem3.Size = new System.Drawing.Size(329, 34);
             this.layoutControlItem3.Text = "Database (*):";
             this.layoutControlItem3.TextSize = new System.Drawing.Size(68, 13);
-            // 
-            // UsernameField
-            // 
-            this.UsernameField.Location = new System.Drawing.Point(92, 84);
-            this.UsernameField.Name = "UsernameField";
-            this.UsernameField.Size = new System.Drawing.Size(251, 20);
-            this.UsernameField.StyleController = this.layoutControl1;
-            this.UsernameField.TabIndex = 7;
-            conditionValidationRule3.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule3.ErrorText = "This value is not valid";
-            conditionValidationRule3.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
-            this.validationProvider.SetValidationRule(this.UsernameField, conditionValidationRule3);
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem4.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.layoutControlItem4.Control = this.UsernameField;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 72);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 102);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(335, 24);
+            this.layoutControlItem4.Size = new System.Drawing.Size(329, 34);
             this.layoutControlItem4.Text = "Username (*):";
             this.layoutControlItem4.TextSize = new System.Drawing.Size(68, 13);
-            // 
-            // EncryptField
-            // 
-            this.EncryptField.EditValue = true;
-            this.EncryptField.Location = new System.Drawing.Point(12, 134);
-            this.EncryptField.Name = "EncryptField";
-            this.EncryptField.Properties.Caption = "Encrypt";
-            this.EncryptField.Size = new System.Drawing.Size(163, 20);
-            this.EncryptField.StyleController = this.layoutControl1;
-            this.EncryptField.TabIndex = 8;
-            // 
-            // layoutControlItem5
-            // 
-            this.layoutControlItem5.Control = this.EncryptField;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 122);
-            this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(167, 32);
-            this.layoutControlItem5.TextVisible = false;
-            // 
-            // TrustServerCertificateField
-            // 
-            this.TrustServerCertificateField.EditValue = true;
-            this.TrustServerCertificateField.Location = new System.Drawing.Point(179, 134);
-            this.TrustServerCertificateField.Name = "TrustServerCertificateField";
-            this.TrustServerCertificateField.Properties.Caption = "Trust server certificate";
-            this.TrustServerCertificateField.Size = new System.Drawing.Size(164, 20);
-            this.TrustServerCertificateField.StyleController = this.layoutControl1;
-            this.TrustServerCertificateField.TabIndex = 9;
-            // 
-            // layoutControlItem6
-            // 
-            this.layoutControlItem6.Control = this.TrustServerCertificateField;
-            this.layoutControlItem6.Location = new System.Drawing.Point(167, 122);
-            this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(168, 32);
-            this.layoutControlItem6.TextVisible = false;
-            // 
-            // PasswordField
-            // 
-            this.PasswordField.Location = new System.Drawing.Point(92, 108);
-            this.PasswordField.Name = "PasswordField";
-            this.PasswordField.Properties.UseSystemPasswordChar = true;
-            this.PasswordField.Size = new System.Drawing.Size(224, 20);
-            this.PasswordField.StyleController = this.layoutControl1;
-            this.PasswordField.TabIndex = 10;
-            conditionValidationRule4.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
-            conditionValidationRule4.ErrorText = "This value is not valid";
-            conditionValidationRule4.ErrorType = DevExpress.XtraEditors.DXErrorProvider.ErrorType.Warning;
-            this.validationProvider.SetValidationRule(this.PasswordField, conditionValidationRule4);
             // 
             // layoutControlItem7
             // 
             this.layoutControlItem7.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem7.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.layoutControlItem7.Control = this.PasswordField;
-            this.layoutControlItem7.Location = new System.Drawing.Point(0, 96);
+            this.layoutControlItem7.Location = new System.Drawing.Point(0, 136);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(308, 26);
+            this.layoutControlItem7.Size = new System.Drawing.Size(297, 34);
             this.layoutControlItem7.Text = "Password (*):";
             this.layoutControlItem7.TextSize = new System.Drawing.Size(68, 13);
-            // 
-            // BtnCopyPass
-            // 
-            this.BtnCopyPass.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnCopyPass.ImageOptions.Image")));
-            this.BtnCopyPass.Location = new System.Drawing.Point(320, 108);
-            this.BtnCopyPass.Name = "BtnCopyPass";
-            this.BtnCopyPass.Size = new System.Drawing.Size(23, 22);
-            this.BtnCopyPass.StyleController = this.layoutControl1;
-            this.BtnCopyPass.TabIndex = 11;
-            this.BtnCopyPass.Click += new System.EventHandler(this.BtnCopyPass_Click);
             // 
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.BtnCopyPass;
-            this.layoutControlItem8.Location = new System.Drawing.Point(308, 96);
+            this.layoutControlItem8.Location = new System.Drawing.Point(297, 136);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(27, 26);
+            this.layoutControlItem8.Size = new System.Drawing.Size(32, 34);
             this.layoutControlItem8.TextVisible = false;
+            // 
+            // layoutControlItem5
+            // 
+            this.layoutControlItem5.Control = this.EncryptField;
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 170);
+            this.layoutControlItem5.Name = "layoutControlItem5";
+            this.layoutControlItem5.Size = new System.Drawing.Size(164, 51);
+            this.layoutControlItem5.TextVisible = false;
+            // 
+            // layoutControlItem6
+            // 
+            this.layoutControlItem6.Control = this.TrustServerCertificateField;
+            this.layoutControlItem6.Location = new System.Drawing.Point(164, 170);
+            this.layoutControlItem6.Name = "layoutControlItem6";
+            this.layoutControlItem6.Size = new System.Drawing.Size(165, 51);
+            this.layoutControlItem6.TextVisible = false;
             // 
             // SourceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(355, 206);
+            this.ClientSize = new System.Drawing.Size(355, 279);
             this.Controls.Add(this.layoutControl1);
             this.Controls.Add(this.groupControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -323,23 +323,23 @@
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NameField.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ServerField.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DatabaseField.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UsernameField.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EncryptField.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrustServerCertificateField.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PasswordField.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.validationProvider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.validationProvider)).EndInit();
             this.ResumeLayout(false);
 
         }

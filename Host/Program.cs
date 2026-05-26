@@ -1,5 +1,6 @@
 using System;
 using System.Configuration;
+using DevExpress.DataAccess.Sql;
 using ReportForge.Data;
 
 namespace ReportForge
@@ -14,6 +15,9 @@ namespace ReportForge
 
             try
             {
+                SqlDataSource.DisableCustomQueryValidation = true;
+                SqlDataSource.AllowCustomSqlQueries = true;
+
                 Schema.EnsureCreated();
 
                 using (var endpoint = new RenderEndpoint(prefix))
